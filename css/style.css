@@ -1,0 +1,361 @@
+/*Reset css*/
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: #191919;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/*Header*/
+
+.header__inner{
+    margin-top: 20px;
+    padding: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.nav__inner{
+    vertical-align: bottom;
+    margin-right: 50px;
+}
+
+.nav_link{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Intro*/
+
+.intro__inner{
+    display: flex;
+    margin: 0px 300px;
+    margin-top: 40px;
+}
+
+.intro_title{
+    width: 530px;
+    height: 164px;
+    font-size: 70px;
+    line-height: 88px;
+    color: #fff;
+    padding-top: 294px;
+    padding-left: 60px;
+}
+
+.text_subtitle_intro{
+    font-size: 15px;
+    color: #fff;
+    padding-top: 200px;
+    padding-left: 80px;    
+}
+
+.intro_link{
+    margin-left: 82px;
+    margin-top: 17px;
+}
+
+.intro_link_inner{
+    padding-right: 17px;
+}
+
+/*Latest epizodes*/
+.over_section-1{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.title_section-1{
+    font-size: 64px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.button_section-1{
+    border: 0px solid;
+    background-color: #118DA8;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+/*Article*/
+
+.section-1__inner{
+    margin-bottom: 150px;
+}
+
+.article_one{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 0px solid;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.img-article{
+    padding: 40px;
+    
+}
+
+.content_article{
+    padding-top: 50px;
+}
+
+.button_article{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border: 0px solid;
+    padding: 0px 16px;
+    background-color: #191919;
+    border-radius: 6px;       
+}
+
+.overhead_article{
+    color: #118DA8;
+    font-size: 17px;
+    margin-top: 49px;
+}
+
+.title_article{
+    width: 701px;
+    font-size: 64px;
+    line-height: 70px;
+    color: #fff;
+    margin-top: 18px;
+}
+
+.text_article{
+    width: 757px;
+    margin-top: 28px;
+    color: #808080;
+    font-size: 22px;
+    line-height: 33px;
+    
+}
+
+.button_article_two{
+    margin-top: 45px;
+    margin-right: 550px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border: 0px solid;
+    background-color: #118DA8;
+    border-radius: 8px;
+    padding: 12px 20px;   
+}
+
+/*Biografi*/
+.biografi{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 300px;
+    margin-top: 200px;    
+}
+
+.overhead_biografi{
+    color: #118DA8;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.title_biografi{
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.text_biografi{
+    width: 556px;
+    height: 66px;
+    color: #808080;
+    font-size: 22px;
+    line-height: 33px;
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 33px;
+}
+
+/*Form*/
+
+.form{
+    margin: 0px 300px;
+    border: 0px solid;
+    margin-top: 100px;
+    background-color: #000000;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-form{
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.overhead-form{
+    color: #118DA8;
+    font-size: 18px;
+}
+
+.title-form{
+    font-size: 72px;
+    color: #fff;
+    width: 431px;
+    height: 159px;
+    margin-top: 10px;
+}
+
+.button-form{   
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+
+.form_inner{
+    margin-bottom: 30px;
+    padding: 26px 438px 27px 19px;
+    background-color: #191919;
+    border: 0px solid;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+.button-form_inner{
+    text-decoration: none;
+    color: #fff;
+    border: 0px solid;
+    background-color: #118DA8;
+    padding: 9px 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.up{
+    margin: 0px 300px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-grid{
+    color: #fff;
+    font-size: 36px;
+    margin-top: 21px;
+    width: 313px;
+    height: 130px;
+}
+
+.text-grid{
+ color: #808080;
+ font-size: 24px;   
+}
+
+.cell{
+    border: 0px solid;
+    border-radius: 32px;
+    background-color: #000000;
+}
+
+.content_cell{
+    padding: 55px;
+    
+}
+
+.down{
+    margin: 0px 300px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Fotter*/
+
+.fotter_inner{
+    margin: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+    margin-bottom: 20px;
+}
+
+.link_fotter{
+    margin-top: 23px;
+}
+
+.link_text_fotter{
+    text-decoration: none;
+    color: #fff;   
+    text-align: left; 
+    margin-right: 90px;
+}
+
+.two-column{
+    padding-right: 90px;
+    display: flex;   
+}
